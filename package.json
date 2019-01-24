@@ -1,0 +1,13 @@
+{
+	"name": "learn_flutter",
+	"version": "1.0.0",
+	"description": "A new Flutter project.",
+	"main": "",
+	"scripts": {
+		"start": "open -a Simulator && flutter run",
+		"run": "flutter run"
+	},
+	"keywords": [
+		"flutter"
+	]
+}
