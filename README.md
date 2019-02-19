@@ -18,6 +18,10 @@ samples, guidance on mobile development, and a full API reference.
 ## run app
 
 ```sh
+ In vscode Press F5 after installing the plugin
+```
+
+```sh
 ios
 
 $ open -a Simulator
