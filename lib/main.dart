@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import './home.dart';
 // import './firstScreen.dart';
-// import './secondScreen.dart';
+import './secondScreen.dart';
+import './randomWordsState.dart';
 
-void main() => runApp(MaterialApp(
+void main() => runApp(new MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
       title: 'Named Routes Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -23,6 +29,10 @@ void main() => runApp(MaterialApp(
       routes: {
         // When we navigate to the "/" route, build the FirstScreen Widget
         '/': (context) => Home(),
+        '/secondScreen': (context) => SecondScreen(),
+        '/randomWords': (context) => RandomWords(),
         // When we navigate to the "/second" route, build the SecondScreen Widget
       },
-    ));
+    );
+  }
+}

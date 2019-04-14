@@ -41,12 +41,14 @@ class Home extends StatelessWidget {
                 title: Text('Item 1'),
                 onTap: () {
                   Navigator.pop(context);
+                  Navigator.pushNamed(context, '/secondScreen');
                 },
               ),
               ListTile(
                 title: Text('Item 2'),
                 onTap: () {
                   Navigator.pop(context);
+                  Navigator.pushNamed(context, '/randomWords');
                 },
               ),
             ],
