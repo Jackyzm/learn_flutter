@@ -51,6 +51,13 @@ class Home extends StatelessWidget {
                   Navigator.pushNamed(context, '/randomWords');
                 },
               ),
+              ListTile(
+                title: Text('Item 3'),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/video');
+                },
+              ),
             ],
           ),
         ),

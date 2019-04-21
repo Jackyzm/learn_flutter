@@ -10,10 +10,10 @@ class FirstScreen extends StatelessWidget {
       body: Center(
           child: Column(children: <Widget>[
         RaisedButton(
-          child: Text('Launch screen'),
+          child: Text('to httpTest'),
           onPressed: () {
             // Navigate to the second screen using a named route
-            Navigator.pushNamed(context, '/second');
+            Navigator.pushNamed(context, '/httpTest');
           },
         ),
         RaisedButton(

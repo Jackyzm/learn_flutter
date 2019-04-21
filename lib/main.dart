@@ -3,6 +3,8 @@ import './home.dart';
 // import './firstScreen.dart';
 import './secondScreen.dart';
 import './randomWordsState.dart';
+import './video.dart';
+import './httpTest.dart';
 
 void main() => runApp(new MyApp());
 
@@ -31,6 +33,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => Home(),
         '/secondScreen': (context) => SecondScreen(),
         '/randomWords': (context) => RandomWords(),
+        '/video': (context) => Video(),
+        '/httpTest': (context) => HttpTest(),
         // When we navigate to the "/second" route, build the SecondScreen Widget
       },
     );
